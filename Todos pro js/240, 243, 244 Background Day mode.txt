@@ -1,0 +1,22 @@
+240, 243, 244 Background Day mode
+
+253, 254, 254 Background sections day mode
+
+175, 122, 197 Background insert Button day mode
+
+127, 179, 213 Background insert Button day mode(Change color to)
+
+77, 86, 86     Text colors day mode
+
+211, 84, 0     Background Danger Day Mode
+
+
+
+
+
+
+
+
+
+
+
