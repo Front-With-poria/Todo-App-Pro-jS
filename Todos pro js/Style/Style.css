@@ -106,7 +106,8 @@ body {
     justify-content: space-between;
     align-items: center;
     min-height: 4rem;
-    max-height: 12rem;
+    max-height: 180rem;
+    overflow: auto;
     transition: all .5s ease-in;
 
 }
@@ -221,7 +222,8 @@ body {
     position: absolute;
     color: var(--item-text);
     font-weight: 400;
-    top: 15rem;
+    top: 2rem;
+    font-size: 2rem;
 
 }
 
@@ -230,11 +232,12 @@ body {
     color: var(--item-text);
     letter-spacing: .2rem;
     font-weight: 400;
-    top: 18rem;
+    top: 5rem;
     font-family: 'Roboto', sans-serif;
+    font-size: 2rem;
 }
 
-@keyframes anime {
+@keyframes anime {1
     0%{
         opacity : 1;
     }
@@ -250,8 +253,6 @@ body {
 .ClearTitle {
     color: #fff;
 }
-
-/* ........................animatoin textBox start....................... */
 
 
 .text__span {
@@ -396,12 +397,6 @@ body {
 }
 
 
-
-/* ........................animatoin textBox End....................... */
-
-/* ........................animatoin ButtonPus Start....................... */
-
-
 .btn-span {
     padding: 10px 10px;
     width: 4rem;
@@ -496,5 +491,3 @@ body {
     transition: transform 0.2s;
     transition-delay: 0.4s;
   }
-
-  /* ........................animatoin ButtonPus End....................... */
